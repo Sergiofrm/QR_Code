@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+* {
+  margin-bottom: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+button {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  width: 150px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.8rem 1.4rem;
+  background: linear-gradient(
+    90deg,
+    rgba(132, 53, 222, 1) 0%,
+    rgba(184, 84, 232, 1) 100%
+  );
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 3;
+  transition: 1s;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Poppins';
+  left: 15px;
+  display: flex;
+}
